@@ -1,0 +1,62 @@
+html 5 card for courses templ...
+
+<div class="card">
+    <img src="https://img.youtube.com/vi/oEI1DubanW4/mqdefault.jpg" alt="loading..." class="cardimg">
+    <div class="crd-doc">
+        <div class="crd-dta crs-tit">
+            <p>Tailwind Course In Hindi</p>
+            <p>webdepolement</p>
+        </div>
+        <div class="crd-dta crc-dis-txt">
+            <p>
+                Complete Tailwind CSS Course by CodeWithHarry 
+                in Hindi - Learn Tailwind CSS from scratch for free!
+            </p>
+        </div>
+        <div class="crd-dta hrf-sec">
+            <img src="https://yt3.ggpht.com/ytc/AKedOLT3EnMXtIOvDT4CL7obl0-acSZCBhMuapXBQFksVQ=s88-c-k-c0x00ffffff-no-rj" alt="404">
+            <div class="hrf-btn">
+                <button>Watch now</button>
+                <button>Open youtube</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+for quotes in home page
+    <div class="fbs">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+            <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
+            </svg>
+        <p class="quds">I don't have words to thank this man, I'm really grateful to have this channel and website in my daily routine. If you're a mere beginner, then you can trust this guy and can put your time into his content. I can assure you that it'll be worth it.</p>
+        <div class="qd-wn">
+            <p>Mohit Kumar</p>
+            <p>Web Developer</p>
+        </div>
+    </div>
+
+css dark theme for all page
+  --dark: #1e2530;
+  --light: #6a57e0;
+  --aqua: #74e6bd;
+  --white: #c5cacc;
+  --logo: #f6f6f7;
+  --border: #424f60;
+  --list: #b1afc5;
+  /* main background in all page as image */
+  --background: linear-gradient(180deg, var(--dark) 20%, 40%, rgb(52, 62, 82) 60%, rgb(53, 64, 82) 80%);
+  --background-oth: linear-gradient(180deg, #354052 20%, 40%, rgb(44 55 73) 60%, rgb(37 45 62) 80%);
+  --grd : -webkit-linear-gradient(60deg, #995920, #d29736, #daa22b);
+css light theme
+  /* all colors */
+  --dark: #1e2530;
+  --light: #731dde;
+  --aqua: #acf4ff;
+  --white: #d5fcf1;
+  --logo: #ffffff;
+  --border: #359cea;
+  --list: #d8d8d8;
+  /* main background in all page as image */
+  --background: linear-gradient(180deg, var(--blue) 20%, 40%, rgb(0 119 210) 60%, rgb(22 148 244) 80%);
+  --background-oth: linear-gradient(180deg, rgb(22 148 244)20%, 40%, rgb(70 167 242) 60%, rgb(22 126 205) 80%);
+  --grd : -webkit-linear-gradient(60deg, #4d20d1, #b029e2, #d77ae3);

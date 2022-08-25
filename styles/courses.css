@@ -1,0 +1,49 @@
+/* all styles for Courses page only (../html/courses.hrml) */
+/* -------------------------- */
+.crs-title {
+    margin: 6em auto;
+    text-align: left;
+    font-size: calc(var(--mid) + 0.5vw + 0.5vh);
+    color: var(--white);
+    border-bottom: 2px solid var(--border);
+    margin-left: 5vw;
+    margin-bottom: 0;
+}
+
+#search {
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    margin-left: 2vw;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 2px solid var(--border);
+    border-radius: 15px;
+    font-size: 1.3em;
+    background: transparent;
+    color: var(--aqua);
+    padding: 3px 10px;
+}
+
+#search::placeholder {
+    color: var(--white);
+    padding: 3px 10px;
+    font-size: 0.9em;
+}
+@media only screen and (max-width: 900px){
+
+    .crs-title {
+        margin: auto;
+        margin-top: 4em;
+        margin-bottom: 0px !important;
+        font-size: 2em;
+    }
+    #search{
+        margin: auto;
+        width: 80%;
+    }   
+    .theme-icon{
+        display: none;
+    }
+}

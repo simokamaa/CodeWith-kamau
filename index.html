@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeWithkamau -- remastarted</title>
+  <!-- lincense -->
+  <link rel="license" href="https://opensource.org/licenses/GPL-3.0">
+  <!-- all custom styleshets (.css)-->
+  <link rel="stylesheet" href="frameworks/css/fram.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- extra links -->
+  <link rel="shortcut icon" href="assets/blender-render/logo/logo-small.png" type="image/x-icon">
+  <!-- cus... css -->
+  <style>
+    body {
+      overflow: hidden;
+    }
+
+    #loadScreen,
+    #mainPage {
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 99;
+    }
+
+    #mainPage {
+      z-index: 10 !important;
+    }
+  </style>
+  <!-- for loading screen -->
+  <style>
+    * {
+      background: var(--dark);
+    }
+
+    #l-bg {
+      width: 100%;
+      height: 100vh;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+    }
+
+    #l-bg img {
+      width: calc(10vw + 5vh);
+      user-select: none;
+      height: auto;
+      mask-image: radial-gradient(black 40%, #00000000 65%);
+      -webkit-mask-image: radial-gradient(black 40%, #00000000 65%);
+      animation: rgb-rotate 1s linear 0s infinite;
+    }
+
+    @media only screen and (max-width: 700px) {
+      #l-bg img {
+        width: calc(40vw + 5vh);
+      }
+    }
+
+    @media only screen and (max-width: 1000px) and (min-width: 700px) {
+      #l-bg img {
+        width: calc(20vw + 5vh);
+      }
+    }
+
+    @keyframes rgb-rotate {
+      0% {
+        filter: hue-rotate(0deg);
+      }
+
+      100% {
+        filter: hue-rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- html layers hear -->
+  <!-- loading screens -->
+  <div id="loadScreen">
+    <!-- layers -->
+    <div id="l-bg">
+      <img draggable="false" src="../assets/blender-render/logo/logo-top.jpg" alt="loding..." class="img">
+    </div>
+  </div>
+  <!-- main page -->
+  <!-- ends of html -->
+  <iframe id="mainPage" src="html/home.html" frameborder="0"></iframe>
+  <!-- scripts -->
+  <script src="frameworks/js/fram.js"></script>
+  <script src="scripts/main.js"></script>
+  <script>
+    const mp = document.getElementById('mainPage');
+    // for url active..ion
+    if (location.hash != '') {
+      if (location.hash == '#login' || location.hash == '#singup') {
+        runTimeChange('join');
+        if (location.hash == '#login') mp.onload = () => {if (mp.contentWindow.toglejoinMethod) mp.contentWindow.toglejoinMethod()};
+      } else runTimeChange(location.hash.replace('#', ''));
+    }
+    function chakeForload(fb) {
+      mp.contentWindow.document.onreadystatechange = () => {
+        if (mp.contentWindow.document.readyState == 'complete') {
+          fb();
+        }
+      }
+      if (mp.contentWindow.document.readyState == 'complete') {
+        fb();
+      }
+    }
+    document.body.onload = () => {
+      chakeForload(() => {
+        $('#loadScreen').destroy();
+      })
+    }
+    function setUrl(nm) {
+      location.hash = nm;
+    }
+  </script>
+</body>
+
+</html>

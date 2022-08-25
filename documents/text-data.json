@@ -1,0 +1,17 @@
+{
+    "home":{
+        "testimonials" : {
+            "user_name" :{
+                "quote" : "I don't have words to thank this man, I'm really grateful to have this channel and website in my daily routine. If you're a mere beginner, then you can trust this guy and can put your time into his content. I can assure you that it'll be worth it.",
+                "name" : "Mohit Kumar",
+                "job" : "Web Developer"
+            },
+            "user_name2" :{
+                "quote" : "For everyone who wants to level up their #Coding and #Dev skills - seriously, this channel is for you! Both basic and advanced stacks are covered on this channel, and one can learn according to his skill levels. And the icing on the cake is, everything is available for free.",
+                "name" : "Rakesh Shetty",
+                "job" : "Web Developer"
+            }
+        },
+        "bio" : "Confused on which course to take? I have got you covered. Browse courses and find out the best course for you. Its free! Code With Harry is my attempt to teach basics and those coding techniques to people in short time which took me ages to learn."
+    }
+}

@@ -1,0 +1,396 @@
+/* all styles for home page only (htme.hrml) */
+/* -------------------------- */
+/* backgrounds home main top */
+#bg-home {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background: var(--background);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -2;
+    /* border to hide shad... */
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 3px;
+    border-image: linear-gradient(-90deg, var(--border), transparent, transparent) 60 30;
+
+}
+
+#bg-home::after {
+    content: '';
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/blender-render/bg-dark-small.png);
+    position: absolute;
+    background-repeat: no-repeat !important;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: calc(10em + 45vw + 15vh);
+}
+
+/* docs in home page */
+.doccont {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+#docs {
+    margin: auto;
+    margin-left: 5em;
+    max-width: 50%;
+}
+
+.doc-obj {
+    text-align: left;
+    margin: 1em auto;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.bio-tab-hm {
+    margin-bottom: 0px;
+}
+
+.doc-txt {
+    font-size: var(--lrg);
+    color: var(--logo);
+    font-family: title;
+    margin: auto;
+    margin-left: 0;
+    padding-bottom: 8px;
+}
+
+.pro {
+    display: flex;
+    margin: auto;
+    margin-left: 0px;
+}
+
+#logo-harry {
+    border-radius: 50%;
+    border: 5px solid var(--logo);
+    width: calc(2vw + 3vh + 1em);
+    margin: auto 1em;
+}
+
+.pro .doc-txt {
+    font-size: calc(2vw + 2vh);
+    background: var(--grd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+}
+
+.doc-bio {
+    width: calc(20vw + 5vh + 5em);
+    font-size: var(--mid);
+    color: var(--white);
+    letter-spacing: 2px;
+    margin: 2em auto;
+}
+
+.doc-btn {
+    display: flex;
+    margin: auto;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.doc-bbtns {
+    font-size: var(--mid);
+    padding: 10px 15px;
+    margin: auto 1em;
+    border-radius: 40px;
+    background: transparent;
+    border: 3px solid var(--border);
+    color: var(--aqua);
+    margin-left: 0px;
+}
+
+.doc-bbtns:last-child {
+    border: 3px solid var(--light);
+    background: var(--light);
+    color: var(--logo);
+    margin-left: 1em;
+}
+
+#logo-harry-mobl {
+    display: none;
+    border-radius: 50%;
+    border: 5px solid var(--logo);
+    width: calc(2vw + 3vh + 1em);
+    margin: auto 1em;
+}
+
+.cont {
+    top: 100vh;
+}
+
+
+
+/* for Testimonials */
+.fb-into {
+    margin: 1em auto;
+    text-align: center;
+    font-size: calc(var(--mid) + 0.5vw + 0.5vh);
+    color: var(--white);
+    border-bottom: 2px solid var(--border);
+}
+
+.tesim {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.fbs {
+    display: flex;
+    flex-direction: column;
+    margin: 4em 2em;
+    background: var(--border);
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px #1515159c;
+    padding: 20px 40px;
+}
+
+.fbs svg {
+    width: 2em;
+    height: fit-content;
+    fill: var(--white);
+    margin: auto 0;
+    padding-bottom: 10px;
+    transform: translateX(-20px) scale(1.2);
+}
+
+.qd-wn {
+    margin: auto 0;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.quds {
+    margin: auto 0;
+    width: calc(24vw + 20vh + 1em);
+    font-size: var(--mid);
+    color: var(--logo);
+    text-align: left;
+}
+
+.qd-wn p {
+    margin: auto 0px;
+    text-align: left;
+    font-size: var(--mid);
+    color: var(--logo);
+    margin-top: 0.7em;
+}
+
+.qd-wn p:last-child {
+    font-size: 0.8em;
+    color: var(--white);
+    margin-top: 0.5em;
+}
+
+/* for tab */
+@media only screen and (max-width: 1300px) and (min-width : 901px) {
+    .title-doc .logo-small {
+        width: 3em;
+    }
+
+    .title-doc {
+        padding: 0px 2px;
+    }
+
+    #bg-home::after {
+        background-position: right 32vh;
+        background-size: calc(5em + 40vw + 20vh);
+    }
+
+    #docs {
+        padding-top: calc(2vw + 1em);
+    }
+
+    .doc-bio {
+        width: calc(24vw + 5vh + 5em);
+        font-size: calc(0.5em + 0.5vw);
+        letter-spacing: 1px;
+    }
+
+    .doc-bbtns {
+        padding: 7px 10px;
+    }
+
+
+
+    .quds {
+        width: calc(30vw + 20vh + 1em);
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width : 740px) {
+
+    #bg-home::after {
+        background-position: center bottom;
+        background-size: calc(5em + 65vw + 22vh);
+        background-image: url(../assets/blender-render/bg-dark-mob-sml.png);
+        filter: brightness(0.5);
+    }
+
+    .doccont {
+        justify-content: center;
+    }
+
+    #docs {
+        margin: auto;
+        margin-top: 32vh;
+        margin-bottom: auto;
+    }
+
+    .doc-txt {
+        font-size: calc(3vw + 3vh + 5px);
+        filter: brightness(1.5);
+    }
+
+    .pro .doc-txt {
+        font-size: calc(3vw + 3vh);
+    }
+
+    #logo-harry {
+        display: none;
+    }
+
+    #logo-harry-mobl {
+        display: block;
+    }
+
+    .doc-bio {
+        width: calc(30vw + 5vh + 5em);
+        font-size: calc(1vw + 0.5vh + 3px);
+        color: #e2e2e2;
+        letter-spacing: 1px;
+    }
+
+    .doc-btn {
+        width: 100%;
+    }
+
+    .doc-btn button {
+        margin: auto;
+    }
+
+
+    .title-doc .logo-small {
+        width: 3em;
+    }
+
+
+
+
+    .quds {
+        width: calc(44vw + 20vh + 1em);
+        font-size: calc(1.2vw + 1vh);
+    }
+
+    .doc-bbtns {
+        padding: 8px 11px;
+    }
+}
+
+@media only screen and (max-width: 741px) {
+
+    #bg-home::after {
+        background-position: center bottom;
+        background-size: calc(5em + 65vw + 22vh);
+        background-image: url(../assets/blender-render/bg-dark-mob-sml.png);
+        filter: brightness(0.5);
+    }
+    .them-ctr{display: none !important;}
+    /* for home docs */
+    #logo-harry-mobl {
+        display: block;
+    }
+
+    #logo-harry {
+        display: none;
+    }
+
+    .doccont {
+        justify-content: center;
+    }
+
+    #docs {
+        margin: auto;
+        transform: scale(1.2);
+    }
+
+    .doc-txt {
+        font-size: calc(2vw + 1vh + 1em);
+    }
+
+    .pro {
+        margin: auto;
+        margin-left: 0;
+    }
+
+    .pro .doc-txt {
+        font-size: calc(3vw + 1vh + 1em);
+    }
+
+    .bio-tab-hm {
+        margin: auto;
+        margin-left: 0;
+    }
+
+    .doc-bio {
+        letter-spacing: normal;
+        width: calc(34vw + 5vh + 5em);
+        font-size: calc(1vw + 10px);
+        color: var(--logo);
+    }
+
+    .doc-btn {
+        width: 100%;
+    }
+
+    .doc-bbtns {
+        padding: 7px 12px;
+        font-size: 0.7em;
+    }
+
+    .doc-btn button {
+        margin: auto 0.5em;
+        margin-left: 0px;
+    }
+
+    .doc-btn button :last-child {
+        margin: auto 0.5em;
+    }
+
+
+    /* end */
+    .crd-into,
+    .fb-into {
+        font-size: calc(var(--mid) + 0.5vw + 0.5vh + 6px);
+    }
+
+    .quds {
+        font-size: 0.9em;
+    }
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWithHarry -- remastarted</title>
+    <!-- lincense -->
+    <link rel="license" href="https://opensource.org/licenses/GPL-3.0">
+    <!-- all custom styleshets (.css)-->
+    <link rel="stylesheet" href="../frameworks/css/fram.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link id="maincss" rel="stylesheet" href="../styles/join.css">
+    <!-- extra links -->
+    <!-- icon.. (driving with js)-->
+</head>
+
+<body>
+    <!-- this file have all methods for sing uo or log in (join) -->
+    <!-- html start here -->
+    <!-- proxy image -->
+    <img src="../assets/blender-render/hill-small.png" class="hide">
+    <div class="bg-join"></div>
+    <!-- manu for this -->
+    <nav id="main-menu-join">
+        <div class="menu-item icon-menu">
+            <img class="manu-logo" src="../assets/blender-render/logo/logo-menu.png" alt="sorry...">
+            <h1 class="menu-title">CodeWithHarry</h1>
+        </div>
+        <div class="menu-item opt-menu">
+            <ul>
+                <li class="page-send">Home</li>
+            </ul>
+        </div>
+    </nav>
+    <!-- join cont -->
+    <!-- join cont background -->
+    <div class="join-cont-bg">
+        <div class="frm">
+            <div class="frm-obj fr-txt">
+                <p style="text-transform: uppercase;" class="fr-up">Start for free</p>
+                <h1 class="fr-up">Creat new Account <span>.</span></h1>
+                <p class="fr-up">Alredy Member?</p>
+            </div>
+            <div class="frm-obj fr-frm">
+                <form class="main-frm">
+                    <div class="frm-inp log-opt">
+                        <div class="google join-opt">
+                            Google
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-google" viewBox="0 0 16 16">
+                                <path
+                                    d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                            </svg>
+                        </div>
+                        <div class="facebok join-opt">
+                            Facebook
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="frm-inp inp-sys usr-name">
+                        <div class="nm-usr">
+                            <label class="ml-nm" for="uname">Name</label>
+                            <div class="inp-pass-eys d-f">
+                                <input autofocus style="text-transform: capitalize;" class="inp-data inp-nm"
+                                    name="uname" placeholder="Enter your Username" type="text" required
+                                    autocomplete="name">
+                                <svg style="transform: translateX(129%)" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frm-inp inp-sys">
+                        <div class="eml-usr">
+                            <label class="ml-lb" for="email">Emil</label>
+                            <div class="inp-pass-eys d-f">
+                                <input required class="inp-data inp-ml" name="email" placeholder="Enter your emil" type="email"
+                                    required autofocus autocomplete="email">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frm-inp inp-sys">
+                        <div class="pass-inp">
+                            <label class="ps-lb" for="pass">Password</label>
+                            <div class="inp-pass-eys d-f">
+                                <input id="inp-pas" class="inp-data" name="pass" placeholder="Enter Password"
+                                    type="password" required autocomplete="new-password">
+
+                                <svg class="eye-hd" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                    <path
+                                        d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                </svg>
+
+                                <svg class="hide eye-cls" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.029 7.029 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.089z" />
+                                    <path
+                                        d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12-.708.708z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    style="transform: scaleY(0.8) ;" fill="currentColor" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="frm-obj fr-btn">
+                <p>All ready a Member?</p>
+                <button id="togle-Meth" class="frn-btn-opt">Log in?</button>
+                <button style="background-color: var(--blue);" id="sub" class="frn-btn-opt">Join</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- html end here -->
+    <!-- all javascript sorc.. -->
+    <script src="../frameworks/js/fram.js"></script>
+    <script src="../scripts/main.js"></script>
+    <!-- script for won... -->
+    <script src="../scripts/join.js"></script>
+</body>
+
+</html>

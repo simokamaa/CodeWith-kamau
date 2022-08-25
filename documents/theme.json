@@ -1,0 +1,38 @@
+{
+    "light":{
+        "red": "#df1c1c",
+        "blue": "#008efa",
+        "dark": "#1e2530",
+        "black": "#161616",
+        "light": "#731dde",
+        "aqua": "#acf4ff",
+        "white": "#d5fcf1",
+        "logo": "#ffffff",
+        "gray": "#636e72",
+        "border": "#359cea",
+        "chrome": "#dff9fb",
+        "select": "#73ff00",
+        "list": "#d8d8d8",
+        "background": "linear-gradient(180deg, var(--blue) 20%, 40%, rgb(0 119 210) 60%, rgb(22 148 244) 80%)",
+        "background-oth": "linear-gradient(180deg, rgb(22 148 244)20%, 40%, rgb(70 167 242) 60%, rgb(22 126 205) 80%)",
+        "grd" : " -webkit-linear-gradient(60deg, #4d20d1, #b029e2, #d77ae3)"
+    },
+    "dark" : {
+        "red": "#df1c1c",
+        "blue": "#008efa",
+        "dark": "#1e2530",
+        "black": "#161616",
+        "light": "#6a57e0",
+        "aqua": "#74e6bd",
+        "white": "#c5cacc",
+        "logo": "#f6f6f7",
+        "gray": "#636e72",
+        "border": "#424f60",
+        "chrome": "#dff9fb",
+        "select": "#73ff00",
+        "list": "#b1afc5",
+        "background": "linear-gradient(180deg, var(--dark) 20%, 40%, rgb(52, 62, 82) 60%, rgb(53, 64, 82) 80%)",
+        "background-oth": "linear-gradient(180deg, #354052 20%, 40%, rgb(44 55 73) 60%, rgb(37 45 62) 80%)",
+        "grd" : "-webkit-linear-gradient(60deg, #995920, #d29736, #daa22b"
+    }
+}

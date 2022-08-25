@@ -1,0 +1,97 @@
+{
+    "home": {
+        "tailwind_tutorial": {
+            "title": "Tailwind Course In Hindi",
+            "category": "web development",
+            "description": "Complete Tailwind CSS Course by CodeWithHarry in Hindi - Learn Tailwind CSS from scratch for free!",
+            "thimble": "L4_jarMnB0c",
+            "YTP_Link": "https://www.youtube.com/watch?v=L4_jarMnB0c&list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O"
+        },
+        "next.js_tutorial": {
+            "title": "Next.js Tutorials For Beginners",
+            "category": "web development",
+            "description": "Complete Next.js Course by CodeWithHarry in Hindi - Learn Next.js from Scratch.",
+            "thimble": "ne_h515wcv4",
+            "YTP_Link": "https://www.youtube.com/watch?v=DZKOunP-WLQ&list=PLu0W_9lII9agtWvR_TZdb_r0dNI8-lDwG"
+        },
+        "react.Js_tutorial": {
+            "title": "React Js Tutorials For Beginners",
+            "category": "web development",
+            "description": "React is a open-source front-end js library. This series will cover React from starting to the end. We will learn react from the ground up!",
+            "thimble": "hnVOvvbQrwA",
+            "YTP_Link": "https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt"
+        },
+        "python_tutorial": {
+            "title": "Python Tutorial For Beginners",
+            "category": "programing language",
+            "description": "Learn Python One Video in Hindi with Notes and 13 Python chapters and 3 Python Projects",
+            "thimble": "gfDE2a7MKjA",
+            "YTP_Link": "https://www.youtube.com/watch?v=gfDE2a7MKjA&t=22064s"
+        }
+    },
+    "courses": {
+        "tailwind_tutorial": {
+            "title": "Tailwind Course In Hindi",
+            "category": "web development",
+            "description": "Complete Tailwind CSS Course by CodeWithHarry in Hindi - Learn Tailwind CSS from scratch for free!",
+            "thimble": "L4_jarMnB0c",
+            "YTP_Link": "https://www.youtube.com/watch?v=L4_jarMnB0c&list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O"
+        },
+        "next.js_tutorial": {
+            "title": "Next.js Tutorials For Beginners",
+            "category": "web development",
+            "description": "Complete Next.js Course by CodeWithHarry in Hindi - Learn Next.js from Scratch.",
+            "thimble": "ne_h515wcv4",
+            "YTP_Link": "https://www.youtube.com/watch?v=DZKOunP-WLQ&list=PLu0W_9lII9agtWvR_TZdb_r0dNI8-lDwG"
+        },
+        "react.Js_tutorial": {
+            "title": "React Js Tutorials For Beginners",
+            "category": "web development",
+            "description": "React is a open-source front-end js library. This series will cover React from starting to the end. We will learn react from the ground up!",
+            "thimble": "hnVOvvbQrwA",
+            "YTP_Link": "https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt"
+        },
+        "python_tutorial2": {
+            "title": "Python Tutorial For Beginners",
+            "category": "programing language",
+            "description": "Learn Python One Video in Hindi with Notes and 13 Python chapters and 3 Python Projects",
+            "thimble": "gfDE2a7MKjA",
+            "YTP_Link": "https://www.youtube.com/watch?v=gfDE2a7MKjA&t=22064s"
+        },
+        "data-structures": {
+            "title": "Data Structures and Algorithms Course",
+            "category": "data science",
+            "description": "Data Structure and Algorithm is one of the most crucial things to learn. This course will give you a complete understanding of Data Structure and its implementation.",
+            "thimble": "5_5oE5lgrhw",
+            "YTP_Link": "https://www.youtube.com/watch?v=5_5oE5lgrhw&list=RDCMUCeVMnSShP_Iviwkknt83cww&start_radio=1&rv=5_5oE5lgrhw&t=0"
+        },
+        "c-tutorials2": {
+            "title": "C Language Tutorials For Beginners",
+            "category": "programing language",
+            "description": "Even if you don't know the ABC of coding, start this course, and I can assure you that you'll be an intermediate-level coder after completion. Get started with C language.",
+            "thimble": "7Dh73z3icd8",
+            "YTP_Link": "https://www.youtube.com/watch?v=7Dh73z3icd8&list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR"
+        },
+        "c-tutorials3": {
+            "title": "C Language Tutorials For Beginners",
+            "category": "programing language",
+            "description": "Even if you don't know the ABC of coding, start this course, and I can assure you that you'll be an intermediate-level coder after completion. Get started with C language.",
+            "thimble": "7Dh73z3icd8",
+            "YTP_Link": "https://www.youtube.com/watch?v=7Dh73z3icd8&list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR"
+        },
+        "c-tutorials4": {
+            "title": "C Language Tutorials For Beginners",
+            "category": "programing language",
+            "description": "Even if you don't know the ABC of coding, start this course, and I can assure you that you'll be an intermediate-level coder after completion. Get started with C language.",
+            "thimble": "7Dh73z3icd8",
+            "YTP_Link": "https://www.youtube.com/watch?v=7Dh73z3icd8&list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR"
+        },
+        "c-tutorials5": {
+            "title": "C Language Tutorials For Beginners",
+            "category": "programing language",
+            "description": "Even if you don't know the ABC of coding, start this course, and I can assure you that you'll be an intermediate-level coder after completion. Get started with C language.",
+            "thimble": "7Dh73z3icd8",
+            "YTP_Link": "https://www.youtube.com/watch?v=7Dh73z3icd8&list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR"
+        }
+    }
+}
